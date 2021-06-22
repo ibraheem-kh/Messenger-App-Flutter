@@ -35,7 +35,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   bool showSpinner = false;
 
 // what I changed ::::::::::::: mix imagePickerScreen with registerScreen::::::::::::::::::::
-  // after anjela file/void
   File _userImageFile;
   void pickedImage(File pickedImage){
     _userImageFile = pickedImage;
@@ -54,7 +53,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Flexible(
-                // after anjela
+
                 child: UserImagePicker(pickedImage),
                 /*child: Hero(
                   tag: 'logo',
