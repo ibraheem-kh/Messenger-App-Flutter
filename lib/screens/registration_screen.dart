@@ -112,7 +112,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     if (newUser != null) {
 
                       // change from ChatScreen.id to UserImagePicker.id
-                      Navigator.pushNamed(context, ProfileScreen.id);
+                      Navigator.pushNamed(context, ChatScreen.id);
                     }
                     setState(() {
                       showSpinner = false;
